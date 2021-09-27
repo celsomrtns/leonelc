@@ -1,1 +1,292 @@
-/* You can add global styles to this file, and also import other style files */
+body,
+html {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f7cda7;
+    color: rgba(0, 0, 0, .8);
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+.topo,
+.leonel-page {
+    background: url("./assets/imgs/background-praia.jpg") center top no-repeat;
+    padding-top: 43px;
+}
+
+.leonel-page {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f7cda7;
+    color: rgba(0, 0, 0, .8);
+}
+
+.logo img {
+    width: auto;
+    height: 120px;
+}
+
+.top-destaques {
+    /*background: rgba(255, 255, 255, .8);*/
+    color: #0a4da3;
+    font-family: 'Sriracha', cursive;
+    border-radius: 20px;
+    font-size: 2em;
+    text-align: right;
+    padding: 5px 20px;
+    height: 110px;
+    /*backdrop-filter: blur(3px)*/
+}
+
+.tpdt-middle {
+    margin-top: 25px;
+}
+
+.tpdt-small {
+    margin-top: 10px;
+    font-size: .55em;
+}
+
+.carousel-inner,
+.carousel-item img {
+    border-radius: 20px;
+}
+
+.cvp-box {
+    text-align: center;
+}
+
+.cvp-box img {
+    border-radius: 50%;
+    width: 70%;
+    height: auto;
+    border: 5px solid white;
+    transition: .2s;
+    margin-bottom: 10px;
+}
+
+.cvp-box img:hover {
+    border: 5px solid #0c4da2;
+    box-shadow: 0 0 15px #333;
+    transition: .2s;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.lc-noticias img {
+    width: auto;
+    height: 30px;
+}
+
+.parceiros-logos {
+    margin-top: 60px
+}
+
+footer {
+    background-image: linear-gradient(to bottom, #feef00, #ff9700);
+}
+
+address {
+    display: none;
+}
+
+.logo-footer {
+    width: 95% !important;
+    margin: auto !important;
+    padding-top: 30px !important;
+    padding-bottom: 5px !important;
+}
+
+.logo-footer {
+    padding-top: 30px;
+}
+
+.logo-footer img {
+    width: auto;
+    height: 80px;
+}
+
+.wz-btn a {
+    background: #00d767;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.wz-btn i {
+    color: #fff;
+    font-size: 2.7em;
+    margin: 8px 0 0 12px;
+}
+
+p.op-imgs {
+    font-size: 1.2em
+}
+
+p.op-imgs img {
+    width: auto;
+    height: 15px;
+    margin-top: -7px;
+}
+
+p.op-imgs a {
+    text-decoration: none;
+    color: #063e86;
+}
+
+.links-rodape ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-rodape {
+    margin: 0;
+    padding: 0;
+}
+
+.links-rodape ul {
+    margin: 0;
+    padding: 0;
+}
+
+.links-rodape ul li {
+    font-size: .8em;
+    color: #014ca7;
+    display: inline-block;
+    margin: 20px;
+}
+
+.links-rodape a,
+.sociais a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.cvp-box-mob {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 10px 5px;
+    margin: 5px;
+}
+
+.cvp-box-mob img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.cvp-box-mob p {
+    font-size: .7em;
+}
+
+.cvp-box-dark {
+    background-color: rgba(0, 0, 0, .1);
+    padding-top: 5px;
+}
+
+.cvp-box-light {
+    padding-top: 5px;
+}
+
+.content-leonel {
+    background: rgba(235, 203, 164, .75);
+    border-top: 3px solid #0c4da2;
+}
+
+.no-space {
+    margin: 0;
+    padding: 0;
+}
+
+.content-leonel-text {
+    padding: 20px 40px;
+}
+
+.content-leonel-text h2 {
+    font-size: 1.5em;
+}
+
+.telefones {
+    font-size: 1.1em;
+    background: #f8e5d0;
+    border-radius: 5px;
+    padding: 5px;
+    padding-top: 20px;
+    box-shadow: 0 2px 2px #666;
+    margin-bottom: 2px;
+    transition: .8s;
+}
+
+.telefones:hover {
+    background: #f8e5d0;
+    transition: .8s;
+}
+
+.telefones img {
+    width: auto;
+    height: 12px;
+    margin-top: -4px;
+}
+
+@media(max-width:640px) {
+    .leonel-page {
+        margin-top: -35px;
+    }
+    .parceiros-logos img {
+        width: 80%;
+        height: auto;
+    }
+    .leonel-page,
+    .content-leonel {
+        background: none;
+        background-color: #f7cda7;
+    }
+    .topo {
+        background: none;
+        padding-top: 60px;
+    }
+    .carousel-inner,
+    .carousel-item img {
+        border-radius: 0;
+    }
+    .zera-mob {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    .lc-noticias img {
+        width: auto;
+        height: 18px;
+    }
+    .space-mob {
+        width: 98%;
+        margin: auto;
+    }
+    .content-leonel-text h2 {
+        font-size: 1.2em;
+    }
+}
+
+.form-control {
+    background-color: #ddbc93;
+    border: 1px solid #cbac87
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.accordion-button {
+    background: #0c4da2 !important;
+    color: #fff !important;
+}

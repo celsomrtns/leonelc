@@ -1,0 +1,16 @@
+.footer-sociais {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-sociais li {
+    display: inline-block;
+}
+
+.footer-sociais li a {
+    display: block;
+    margin: 10px;
+    font-size: 2em;
+    color: #0c4da2;
+}
