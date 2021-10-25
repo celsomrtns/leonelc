@@ -9,6 +9,16 @@ import { HomeDestaquesComponent } from './components/home-destaques/home-destaqu
 import { ParceirosComponent } from './components/parceiros/parceiros.component';
 import { FooterDivComponent } from './components/footer-div/footer-div.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AppRoutingModule } from './app-routing.module';
+import { QuemSomosComponent } from './pages/quem-somos/quem-somos.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CompraComponent } from './pages/compra/compra.component';
+import { BannerHomeComponent } from './components/banner-home/banner-home.component';
+import { VendaComponent } from './pages/venda/venda.component';
+import { CartasComponent } from './pages/cartas/cartas.component';
+import { ServicosComponent } from './pages/servicos/servicos.component';
+import { ConsorcioComponent } from './pages/consorcio/consorcio.component';
+import { AtendimentoComponent } from './pages/atendimento/atendimento.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +29,20 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeDestaquesComponent,
     ParceirosComponent,
     FooterDivComponent,
-    FooterComponent
+    FooterComponent,
+    QuemSomosComponent,
+    HomeComponent,
+    CompraComponent,
+    BannerHomeComponent,
+    VendaComponent,
+    CartasComponent,
+    ServicosComponent,
+    ConsorcioComponent,
+    AtendimentoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

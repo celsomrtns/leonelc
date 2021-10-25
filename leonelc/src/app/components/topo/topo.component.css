@@ -1,0 +1,10 @@
+.logo span {
+    display: none;
+}
+
+@media(max-width:640px) {
+    .top-mobile {
+        margin-top: -20px;
+        background-color: #f7cda7;
+    }
+}

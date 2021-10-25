@@ -1,0 +1,209 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1 mt-3 content-leonel">
+                <div class="row">
+                    <div class="col-md-4 no-space">
+                        <img class="img-fluid" src="./assets/imgs/img-venda.jpg" alt="Venda">
+                    </div>
+                    <div class="col-md-8 content-leonel-text">
+
+                        <h1>Venda</h1>
+                        <h2>Venda seu consórcio e transforme em dinheiro já!</h2>
+
+                        <p>Se deseja vender seu consórcio, contemplado ou não (mesmo em atraso), preencha os campos abaixo e anexe seu extrato. Faremos uma avaliação com base nas informações fornecidas e contidas no documento.</p>
+
+                        <p>Lembramos que se possuir mais de uma cota de consórcio deverá enviar os extratos de cada uma.</p>
+
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                                <form id="form-venda" action="form-venda.php" enctype="multipart/form-data" method="POST">
+                                    <div class="row">
+                                        <div class="col-md-12 col-12">
+                                            <h2 style="border-bottom: 1px solid #0c4da2;">Dados do Consorciado</h2>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Nome</label>
+                                                <br />
+                                                <input id="nome" class="form-control" name="nome" required="" type="text" placeholder="Nome Completo" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label>Telefone</label>
+                                                <br />
+                                                <input id="tel" class="form-control" name="tel" required="" type="tel" placeholder="Telefone (com DDD)" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                                <label>Celular</label>
+                                                <input id="cel" class="form-control" name="cel" required="" type="tel" placeholder="Celular (com DDD)" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Skype</label>
+                                                <input id="skype" class="form-control" name="skype" type="text" placeholder="Usuário Skype" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>e-mail</label>
+                                                <input id="email" class="form-control" name="email" required="" type="email" placeholder="e-mail" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <h2 style="border-bottom: 1px solid #0c4da2;">Dados do Consórcio</h2>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Administradora</label>
+                                                <input id="admin" class="form-control" name="admin" type="text" placeholder="Administradora" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Grupo</label>
+                                                <input id="grupo" class="form-control" name="grupo" type="text" placeholder="Grupo" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Cota</label>
+                                                <input id="cota" class="form-control" name="cota" type="text" placeholder="Cota" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Bem Objeto</label>
+                                                <br />
+                                                <select id="bem_objeto" class="form-control" name="bem_objeto">
+                                                    <option selected="selected">Escolha</option>
+                                                    <option value="Imóvel">Imóvel</option>
+                                                    <option value="Automóvel">Automóvel</option>
+                                                    <option value="Caminhão">Caminhão</option>
+                                                    <option value="Outros">Outros</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Valor do Bem</label>
+                                                <br />
+                                                <input id="valor_bem" class="form-control" name="valor_bem" type="text" placeholder="em R$" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>No. Total do Plano</label>
+                                                <br />
+                                                <input id="total_plano" class="form-control" name="total_plano" type="text" placeholder="Total de parcelas" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>No. de Mensalidades Pagas</label>
+                                                <br />
+                                                <input id="mensalidades_pagas" class="form-control" name="mensalidades_pagas" type="text" placeholder="No. Mensalidades" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>No. de Mensalidades a Pagar</label>
+                                                <input id="mensalidades_a_pagar" class="form-control" name="mensalidades_a_pagar" type="text" placeholder="No. Mensalidades a Pagar" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>No. de Mensalidades em Atraso</label>
+                                                <input id="mensalidades_em_atraso" class="form-control" name="mensalidades_em_atraso" type="text" placeholder="No. Mensalidade em Atraso" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Valor da Parcela Atual</label>
+                                                <input id="valor_parcela_atual" class="form-control" name="valor_parcela_atual" type="text" placeholder="em R$" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Saldo Devedor</label>
+                                                <input id="saldo_devedor" class="form-control" name="saldo_devedor" type="text" placeholder="Quitação" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Valor Pretendido para a Venda</label>
+                                                <input id="valor_pretendido" class="form-control" name="valor_pretendido" type="text" placeholder="em R$" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Contemplado</label>
+                                                <select id="contemplado" class="form-control" name="contemplado">
+                                                    <option selected="selected">Escolha</option>
+                                                    <option value="Sim">Sim</option>
+                                                    <option value="Não">Não</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Forma de Contemplação</label>
+                                                <select id="forma_contemplacao" class="form-control" name="forma_contemplacao">
+                                                    <option selected="selected">Escolha</option>
+                                                    <option value="Sorteio">Sorteio</option>
+                                                    <option value="Lance Próprio">Lance Próprio</option>
+                                                    <option value="Lance Embutido">Lance Embutido</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Como conheceu nosso site?</label>
+                                                <select id="como_conheceu" class="form-control" name="como_conheceu">
+                                                    <option selected="selected">Escolha</option>
+                                                    <option value="Indicação">Indicação</option>
+                                                    <option value="Internet">Internet</option>
+                                                    <option value="Radio">Radio</option>
+                                                    <option value="Jornal">Jornal</option>
+                                                    <option value="Revista">Revista</option>
+                                                    <option value="Outros">Outros</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <label>Qual?</label>
+                                                <input id="outros_qual" class="form-control" name="outros_qual" type="text" placeholder="Qual" />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12 d-none d-sm-block">
+                                            <div class="form-group" style="border: 2px dashed #0c4da2; padding: 10px;">
+                                                <label for="arquivo">Anexar Extrato*</label>
+                                                <br />
+                                                <input id="arquivo" name="arquivo" type="file" />
+                                                <p class="help-block"></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div id="RecaptchaFieldVenda"></div>
+                                        </div>
+                                        <div class="col-md-12 col-12">
+                                            <div class="form-group">
+                                                <button class="btn btn-primary pull-right" name="submit" type="submit" value="submit">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,126 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-10 offset-md-1 mt-3 content-leonel">
+                <div class="row">
+                    <div class="col-md-4 no-space">
+                        <img class="img-fluid" src="./assets/imgs/img-atendimento.jpg" alt="Atendimento">
+                    </div>
+                    <div class="col-md-8 content-leonel-text">
+
+                        <h1>Consórcio</h1>
+                        <h2>Saiba tudo sobre!</h2>
+                        <p>Conheça a história do Consórcio e saiba mais informações.</p>
+
+
+                        <div class="row">
+                            <h1>Atendimento</h1>
+                            <h2>Entre em contato agora mesmo!</h2>
+                            <p>A sua opinião é muito importante para nós.<br/> Esclareça suas dúvidas, envie elogios ou sugestões. Cadastre-se e receba informações e promoções do nosso site pelo e-mail e/ou telefone.</p>
+
+                            <div class="col-md-12 col-12 text-center telefones" style="margin-bottom: 20px">
+                                <p>Aqui entram os telefones</p>
+                            </div>
+
+                            <p>Ou, se preferir, preencha o formulário abaixo.</p>
+
+                            <form id="form-atendimento" action="form-atendimento.php" method="POST">
+                                <div class="row">
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Nome</label>
+                                            <br />
+                                            <input id="nome" class="form-control" name="nome" required="" type="text" placeholder="Nome" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label>Telefone</label>
+                                            <br />
+                                            <input id="tel" class="form-control" name="tel" required="" type="tel" placeholder="Telefone (com DDD)" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="form-group">
+                                            <label>Celular</label>
+                                            <br />
+                                            <input id="cel" class="form-control" name="cel" required="" type="tel" placeholder="Celular (com DDD)" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Skype</label>
+                                            <br />
+                                            <input id="skype" class="form-control" name="skype" type="text" placeholder="Skype" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>e-mail</label>
+                                            <br />
+                                            <input id="email" class="form-control" name="email" required="" type="email" placeholder="e-mail" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Motivo</label>
+                                            <br />
+                                            <select id="motivo" class="form-control" name="motivo">
+                                                <option selected="selected">Escolha</option>
+                                                <option value="Comprar">Comprar</option>
+                                                <option value="Vender">Vender</option>
+                                                <option value="Informações">Informações</option>
+                                                <option value="Parceria">Parceria</option>
+                                                <option value="Outros">Outros</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Mensagem</label>
+                                            <br />
+                                            <textarea id="mensagem" class="form-control" name="mensagem" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Como conheceu nosso site?</label>
+                                            <br />
+                                            <select id="como_conheceu" class="form-control" name="como_conheceu">
+                                                <option selected="selected">Escolha</option>
+                                                <option value="Indicação">Indicação</option>
+                                                <option value="Internet">Internet</option>
+                                                <option value="Radio">Radio</option>
+                                                <option value="Jornal">Jornal</option>
+                                                <option value="Revista">Revista</option>
+                                                <option value="Outros">Outros</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <label>Qual?</label>
+                                            <br />
+                                            <input id="outros_qual" class="form-control" name="outros_qual" type="text" />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div id="RecaptchaFieldAtendimento"></div>
+                                        <p class="bg-danger alert-captcha hide">É obrigatório marcar o Captcha</p>
+                                    </div>
+                                    <div class="col-md-12 col-12">
+                                        <div class="form-group">
+                                            <button class="btn btn-primary pull-right" name="submit" type="submit" value="submit">Enviar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

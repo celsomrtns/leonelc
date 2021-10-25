@@ -1,49 +1,49 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-yellow">
     <div class="container">
-        <a class="navbar-brand" href="#!"><img src="./assets/imgs/sun.png" alt="Leonel Consórcios"></a>
+        <a class="navbar-brand" routerLink="/"><img src="./assets/img/sun.avif" alt="Leonel Consórcios"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#!">Home</a>
+                    <a class="nav-link" aria-current="page" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Quem Somos</a>
+                    <a class="nav-link" routerLink="/quem-somos" routerLinkActive="active">Quem Somos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Compra</a>
+                    <a class="nav-link" routerLink="/compra" routerLinkActive="active">Compra</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Venda</a>
+                    <a class="nav-link" routerLink="/venda" routerLinkActive="active">Venda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Cartas</a>
+                    <a class="nav-link" routerLink="/cartas" routerLinkActive="active">Cartas</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Serviços</a>
+                    <a class="nav-link" routerLink="/servicos" routerLinkActive="active">Serviços</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Consórcio</a>
+                    <a class="nav-link" routerLink="/consorcio" routerLinkActive="active">Consórcio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#!">Atendimento</a>
+                    <a class="nav-link" routerLink="/atendimento" routerLinkActive="active">Atendimento</a>
                 </li>
             </ul>
             <div class="d-flex d-none d-sm-block">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.facebook.com/leonelconsorcios.com.br/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a class="nav-link" href="https://www.facebook.com/leonelconsorcios.com.br/" rel="noreferrer" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.instagram.com/leonel_consorcios/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="nav-link" href="https://www.instagram.com/leonel_consorcios/" rel="noreferrer" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://twitter.com/leonelconsorcio" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="nav-link" href="https://twitter.com/leonelconsorcio" rel="noreferrer" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://www.youtube.com/channel/UCCb3nDLNVmSk2SZK0IXfaUg" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCCb3nDLNVmSk2SZK0IXfaUg" rel="noreferrer" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
                     </li>
                 </ul>
             </div>

@@ -17,3 +17,18 @@ section {
 .nav-tabs .nav-link:hover {
     border-color: #ebcba5;
 }
+
+.lc-noticias img {
+    width: auto;
+    height: 30px;
+}
+
+@media(max-width:640px) {
+    .lc-noticias img {
+        width: auto;
+        height: 18px;
+    }
+    .nav-link {
+        padding: 0;
+    }
+}
