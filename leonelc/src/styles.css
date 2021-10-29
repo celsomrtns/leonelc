@@ -1,6 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    color: rgba(0, 0, 0, .8);
+    /*color: rgba(0, 0, 0, .8);*/
+    color: #0a4da3 !important;
     background: url("./assets/imgs/background-praia.jpg") center top no-repeat;
     background-color: #f7cda7 !important;
 }
@@ -16,10 +17,10 @@ h3 {
 }
 
 .navbar-yellow {
-    /*background-color: #fede00 !important;*/
-    background-color: rgba(254, 222, 0, .8) !important;
+    background-color: #feef00 !important;
+    /*background-color: rgba(254, 222, 0, .8) !important;*/
     border-bottom: 5px solid #3c2f27;
-    backdrop-filter: blur(3px)
+    /*backdrop-filter: blur(3px)*/
 }
 
 .navbar-brand img {
@@ -51,7 +52,8 @@ h3 {
 .leonel-page {
     font-family: 'Ubuntu', sans-serif;
     background-color: #f7cda7;
-    color: rgba(0, 0, 0, .8);
+    /* color: rgba(0, 0, 0, .8); */
+    color: #0a4da3;
 }
 
 .logo img {

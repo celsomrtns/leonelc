@@ -5,10 +5,10 @@
 }
 
 .navbar-yellow {
-    /*background-color: #fede00 !important;*/
-    background-color: rgba(254, 222, 0, .8) !important;
+    background-color: #feef00 !important;
+    /*background-color: rgba(254, 222, 0, .8) !important;*/
     border-bottom: 5px solid #3c2f27;
-    backdrop-filter: blur(3px)
+    /*backdrop-filter: blur(3px)*/
 }
 
 .navbar-brand img {
