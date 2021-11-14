@@ -1,3 +1,5 @@
+@media (prefers-color-scheme: dark) {}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     /*color: rgba(0, 0, 0, .8);*/
@@ -371,4 +373,10 @@ p.op-imgs a {
 .accordion-button {
     background: #0c4da2 !important;
     color: #fff !important;
+}
+
+@media (max-width: 640px) {
+    .mobile-up {
+        margin-top: -30px;
+    }
 }

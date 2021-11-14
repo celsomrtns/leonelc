@@ -1,6 +1,6 @@
 <section>
     <div class="container">
-        <div class="row">
+        <div class="row mobile-up">
             <div class="col-12 col-md-10 offset-md-1 mt-3 content-leonel">
                 <div class="row">
                     <div class="col-md-4 no-space">
@@ -17,7 +17,7 @@
 
                         <div class="row">
                             <div class="col-md-12 col-12">
-                                <form id="form-venda" action="form-venda.php" enctype="multipart/form-data" method="POST">
+                                <form id="form-venda" action="./assets/forms/form-venda.php" enctype="multipart/form-data" method="POST">
                                     <div class="row">
                                         <div class="col-md-12 col-12">
                                             <h2 style="border-bottom: 1px solid #0c4da2;">Dados do Consorciado</h2>
@@ -42,12 +42,12 @@
                                                 <input id="cel" class="form-control" name="cel" required="" type="tel" placeholder="Celular (com DDD)" />
                                             </div>
                                         </div>
-                                        <div class="col-md-12 col-12">
+                                        <!-- <div class="col-md-12 col-12">
                                             <div class="form-group">
                                                 <label>Skype</label>
                                                 <input id="skype" class="form-control" name="skype" type="text" placeholder="Usuário Skype" />
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="col-md-12 col-12">
                                             <div class="form-group">
                                                 <label>e-mail</label>
@@ -189,7 +189,8 @@
                                             </div>
                                         </div>
                                         <div class="col-md-12 col-12">
-                                            <div id="RecaptchaFieldVenda"></div>
+                                            <ng-hcaptcha (verify)="onVerify($event)" (expired)="onExpired($event)" (error)="onError($event)">
+                                            </ng-hcaptcha>
                                         </div>
                                         <div class="col-md-12 col-12">
                                             <div class="form-group">

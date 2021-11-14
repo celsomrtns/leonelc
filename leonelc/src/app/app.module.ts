@@ -19,6 +19,8 @@ import { CartasComponent } from './pages/cartas/cartas.component';
 import { ServicosComponent } from './pages/servicos/servicos.component';
 import { ConsorcioComponent } from './pages/consorcio/consorcio.component';
 import { AtendimentoComponent } from './pages/atendimento/atendimento.component';
+import { FormokComponent } from './pages/formok/formok.component';
+import { NgHcaptchaModule } from 'ng-hcaptcha';
 
 @NgModule({
   declarations: [
@@ -38,11 +40,15 @@ import { AtendimentoComponent } from './pages/atendimento/atendimento.component'
     CartasComponent,
     ServicosComponent,
     ConsorcioComponent,
-    AtendimentoComponent
+    AtendimentoComponent,
+    FormokComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    NgHcaptchaModule.forRoot({
+      siteKey: 'a0883eeb-b5d1-4148-b55a-ee8d20d74714'
+  }),
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

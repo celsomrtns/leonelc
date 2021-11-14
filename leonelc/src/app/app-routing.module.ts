@@ -9,6 +9,7 @@ import { CartasComponent } from './pages/cartas/cartas.component';
 import { ServicosComponent } from './pages/servicos/servicos.component';
 import { ConsorcioComponent } from './pages/consorcio/consorcio.component';
 import { AtendimentoComponent } from './pages/atendimento/atendimento.component';
+import { FormokComponent } from './pages/formok/formok.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }, 
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'cartas', component: CartasComponent },
   { path: 'servicos', component: ServicosComponent },
   { path: 'consorcio', component: ConsorcioComponent },
-  { path: 'atendimento', component: AtendimentoComponent }
+  { path: 'atendimento', component: AtendimentoComponent },
+  { path: 'formok', component: FormokComponent }
 ];
 
 

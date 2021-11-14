@@ -12,4 +12,7 @@ export class QuemSomosComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  anoatual = new Date().getFullYear();
+  idadeleonel = ((new Date().getFullYear()) - 1979);
+
 }

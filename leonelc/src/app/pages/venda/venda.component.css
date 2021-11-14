@@ -29,4 +29,7 @@
     .content-leonel-text h2 {
         font-size: 1.2em;
     }
+    .mobile-up {
+        margin-top: -30px;
+    }
 }
