@@ -49,6 +49,19 @@
     border-bottom: 4px solid #0a4da3;
 }
 
+@media(max-width:1024px) {
+    .navbar {
+        font-size: .65em;
+    }
+    .navbar-brand img {
+        width: auto;
+        height: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 11px 15px;
+    }
+}
+
 @media(max-width:640px) {
     .navbar-light .navbar-nav .nav-link {
         padding: 20px 15px

@@ -2,6 +2,18 @@
     display: none;
 }
 
+@media(max-width:1024px) {
+    .logo img {
+        width: auto;
+        height: 100px;
+    }
+    .top-destaques {
+        font-size: 1.4em;
+        height: auto;
+        padding: 15px 20px;
+    }
+}
+
 @media(max-width:640px) {
     .top-mobile {
         margin-top: -20px;
