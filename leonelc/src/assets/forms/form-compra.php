@@ -159,9 +159,8 @@ echo responseData;
 
         $headers = "MIME-Version: 1.1\n";
         $headers .= "Content-type: text/html; charset=utf-8\n";
-        $headers .= "From: ".$nome."<".$email.">\n"; 
-        $headers .= "Return-Path: compra@leonelconsorcios.com.br\n"; 
-        $headers .= "Bcc: celsojnr@gmail.com\n"; 
+        $headers .= "From: compra@leonelconsorcios.com.br\n"; 
+        $headers .= "Return-Path: compra@leonelconsorcios.com.br\n";
 
 
           mail("compra@leonelconsorcios.com.br","[LEONELCONSORCIOS.COM.BR - COMPRA] - Contato de $nome, Cel.: $cel","$mensagem",$headers,"-r".$email);

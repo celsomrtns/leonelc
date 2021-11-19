@@ -247,7 +247,7 @@ echo responseData;
             $mens .= "$anexo\n";
             $mens .= "--$boundary--\r\n";
             $headers = "MIME-Version: 1.0\n";
-            $headers .= "From: ".$nome."<".$email.">\n";
+            $headers .= "From: venda@leonelconsorcios.com.br\n";
             $headers .= "Return-Path: venda@leonelconsorcios.com.br\n"; // return-path
             $headers .= "Content-type: multipart/mixed; boundary=\"$boundary\"\r\n";
             $headers .= "$boundary\n";
@@ -261,7 +261,7 @@ echo responseData;
 
           $headers = "MIME-Version: 1.1\n";
           $headers .= "Content-type: text/html; charset=utf-8\n";
-          $headers .= "From: ".$nome."<".$email.">\n"; // remetente
+          $headers .= "From: venda@leonelconsorcios.com.br\n"; // remetente
           $headers .= "Return-Path: venda@leonelconsorcios.com.br\n"; // return-path
 
           mail("venda@leonelconsorcios.com.br","[LEONELCONSORCIOS.COM.BR - VENDA] - Contato de $nome, Tel.: $tel","$mensagem",$headers,"-r".$email);

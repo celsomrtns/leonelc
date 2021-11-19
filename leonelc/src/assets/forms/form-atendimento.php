@@ -146,9 +146,8 @@ echo responseData;
 
         $headers = "MIME-Version: 1.1\n";
         $headers .= "Content-type: text/html; charset=utf-8\n";
-        $headers .= "From: ".$nome."<".$email.">\n"; 
+        $headers .= "From: atendimento@leonelconsorcios.com.br\n"; 
         $headers .= "Return-Path: atendimento@leonelconsorcios.com.br\n"; 
-        $headers .= "Bcc: celsojnr@gmail.com\n"; 
 
         mail("atendimento@leonelconsorcios.com.br","[LEONELCONSORCIOS.COM.BR - ATENDIMENTO] - Contato de $nome, Tel.: $tel","$mensagem",$headers,"-r".$email);
           header("Location: /formok"); 
