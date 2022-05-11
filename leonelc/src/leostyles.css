@@ -4,7 +4,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     /*color: rgba(0, 0, 0, .8);*/
     color: #0a4da3 !important;
-    background: url("./assets/imgs/background-praia.jpg") center top no-repeat;
+    background: url("./assets/imgs/webp/background-praia.webp") center top no-repeat;
     background-color: #f7cda7 !important;
 }
 
