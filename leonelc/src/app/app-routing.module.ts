@@ -10,6 +10,7 @@ import { ServicosComponent } from './pages/servicos/servicos.component';
 import { ConsorcioComponent } from './pages/consorcio/consorcio.component';
 import { AtendimentoComponent } from './pages/atendimento/atendimento.component';
 import { FormokComponent } from './pages/formok/formok.component';
+import { PoliticaPrivacidadeComponent } from './pages/politica-privacidade/politica-privacidade.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }, 
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'servicos', component: ServicosComponent },
   { path: 'consorcio', component: ConsorcioComponent },
   { path: 'atendimento', component: AtendimentoComponent },
+  { path: 'politica-privacidade', component: PoliticaPrivacidadeComponent },
   { path: 'formok', component: FormokComponent }
 ];
 

@@ -14,3 +14,7 @@
     font-size: 2em;
     color: #0c4da2;
 }
+
+.link-sub {
+    text-decoration: underline;
+}

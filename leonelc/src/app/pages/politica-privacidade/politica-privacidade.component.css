@@ -1,0 +1,42 @@
+.no-space {
+    margin: 0;
+    padding: 0;
+}
+
+.content-leonel {
+    background: rgba(255, 255, 255, .75);
+    border-top: 3px solid #0c4da2;
+}
+
+.content-leonel-text {
+    padding: 20px 40px;
+}
+
+.content-leonel-text h2 {
+    font-size: 1.5em;
+}
+
+.form-control {
+    background-color: #ddbc93;
+    border: 1px solid #cbac87
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+@media(max-width:640px) {
+    .content-leonel {
+        margin-top: -11px !important;
+    }
+    .content-leonel-text h2 {
+        font-size: 1.2em;
+    }
+    .mobile-up {
+        margin-top: -30px;
+    }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+}

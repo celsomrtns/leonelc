@@ -12,6 +12,12 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  closeMenu() {
+    $("#mobbtnmenu").attr("aria-expanded", "false").addClass("collapsed");
+    $("#navbarSupportedContent").removeClass("show");
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  }
+
   anoatual = new Date().getFullYear();
   idadeleonel = ((new Date().getFullYear()) - 1979);
 

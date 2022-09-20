@@ -21,6 +21,7 @@ import { ConsorcioComponent } from './pages/consorcio/consorcio.component';
 import { AtendimentoComponent } from './pages/atendimento/atendimento.component';
 import { FormokComponent } from './pages/formok/formok.component';
 import { NgHcaptchaModule } from 'ng-hcaptcha';
+import { PoliticaPrivacidadeComponent } from './pages/politica-privacidade/politica-privacidade.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { NgHcaptchaModule } from 'ng-hcaptcha';
     ServicosComponent,
     ConsorcioComponent,
     AtendimentoComponent,
-    FormokComponent
+    FormokComponent,
+    PoliticaPrivacidadeComponent
   ],
   imports: [
     BrowserModule,
