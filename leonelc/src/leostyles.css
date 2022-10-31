@@ -266,6 +266,10 @@ p.op-imgs a {
     border-top: 3px solid #0c4da2;
 }
 
+.mobile-up {
+    margin-top: -32px !important;
+}
+
 .no-space {
     margin: 0;
     padding: 0;

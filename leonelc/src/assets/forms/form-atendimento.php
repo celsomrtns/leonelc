@@ -102,7 +102,7 @@ echo responseData;
                       <td bgcolor="#FFFFFF">'.$tel.'</td>
                     </tr>
                     <tr>
-                      <td bgcolor="#FFFFFF" align="right"><strong>Celular:</strong></td>
+                      <td bgcolor="#FFFFFF" align="right"><strong>Celular (Whatsapp):</strong></td>
                       <td bgcolor="#FFFFFF">'.$cel.'</td>
                     </tr>
                     <tr>

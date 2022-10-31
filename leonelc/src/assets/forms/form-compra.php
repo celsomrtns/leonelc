@@ -23,9 +23,6 @@ echo responseData;
       if (isset($_POST['cel'])) {
         $cel = $_POST['cel'];
       }
-      if (isset($_POST['skype'])) {
-        $skype = $_POST['skype'];
-      }
       if (isset($_POST['email'])) {
         $email = $_POST['email'];
       }
@@ -108,12 +105,8 @@ echo responseData;
                       <td bgcolor="#FFFFFF">'.$tel.'</td>
                     </tr>
                     <tr>
-                      <td bgcolor="#FFFFFF" align="right"><strong>Celular:</strong></td>
+                      <td bgcolor="#FFFFFF" align="right"><strong>Celular (Whatsapp):</strong></td>
                       <td bgcolor="#FFFFFF">'.$cel.'</td>
-                    </tr>
-                    <tr>
-                      <td bgcolor="#FFFFFF" align="right"><strong>Skype:</strong></td>
-                      <td bgcolor="#FFFFFF">'.$skype.'</td>
                     </tr>
                     <tr>
                       <td bgcolor="#FFFFFF" align="right"><strong>e-mail:</strong></td>
